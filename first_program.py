@@ -20,6 +20,3 @@ print(string[1:len(string):2])
 print(string.replace("sujan","Ram"))
 print(string.find("name"))
 print(string.split())
-
-
-

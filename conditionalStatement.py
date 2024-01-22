@@ -33,17 +33,17 @@
 #shorthand statement
 # print("5 is grater number") if 5>2 else print("small number") 
 
-age=int(input("enter your age :"))
+# age=int(input("enter your age :"))
 
-if age<18:
-    print("You have to pay 20 rupee")
-elif (age>18) and (age<40):
-    if age==24:
-        print("you are free") 
+# if age<18:
+#     print("You have to pay 20 rupee")
+# elif (age>18) and (age<40):
+#     if age==24:
+#         print("you are free") 
     
-    print("you have to pay 50 rupee")
-else:
-    print(" you have to pay  Rs 30")
+#     print("you have to pay 50 rupee")
+# else:
+#     print(" you have to pay  Rs 30")
     
 #conditional operator 
 # a=5
@@ -51,6 +51,9 @@ else:
 # print(a>=5)
 # print(a!=5)
 # print(a%2)
-
+    
+import keyword
+a=keyword.kwlist
+print(a)
 
     

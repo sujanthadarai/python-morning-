@@ -75,8 +75,3 @@ print(obj1.Totalprice())
 
 obj2=Shop("pen",10,12)
 print(obj2.Totalprice())
-
-
-
-
-
